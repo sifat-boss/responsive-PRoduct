@@ -12,3 +12,11 @@ document.querySelectorAll(".products-container .product").forEach(product =>{
         });
     };
 });
+
+
+previewBox.forEach(close =>{
+    close.querySelector('.fa-times').onclick = () =>{
+        close.classList.remove('active');
+        previewContainer.style.display = 'none';
+    };
+});

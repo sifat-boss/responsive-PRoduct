@@ -155,3 +155,21 @@ body {
     background: #444;
     color: #fff;
 }
+
+/* media query */
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:450px) {
+    .preview .products-preview img {
+        height: 25rem;
+      }
+}
+
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+}
